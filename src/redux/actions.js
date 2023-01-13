@@ -16,7 +16,7 @@ export const CLEAN_DETAIL = "CLEAN_DETAIL";
 
 export const getPokemons = () => {
     return async function (dispatch) {
-        const info = await axios.get("http://localhost:3001/pokemons")
+        const info = await axios.get("/pokemons")
         dispatch({
             type: GET_POKEMONS,
             payload: info.data
@@ -27,7 +27,7 @@ export const getPokemons = () => {
 
 export const getTypes = () => {
     return async function(dispatch) {
-        const typeInfo = await axios.get("http://localhost:3001/types")
+        const typeInfo = await axios.get("/types")
         dispatch({
             type: GET_TYPES,
             payload: typeInfo.data
@@ -39,7 +39,7 @@ export const getTypes = () => {
 
 export const detailPokemon = (id) => {
     return async function(dispatch) {
-        const detail = await axios.get(`http://localhost:3001/pokemons/${id}`);
+        const detail = await axios.get(`/pokemons/${id}`);
         dispatch({
             type: GET_DETAIL,
             payload: detail.data
@@ -60,7 +60,7 @@ export const filterByType = (payload) => {
 export const filterByName = (name) => {
     return async function(dispatch){
     try {
-            const poke = await axios.get(`http://localhost:3001/pokemons?name=${name}`)
+            const poke = await axios.get(`/pokemons?name=${name}`)
             dispatch({
                 type: FILTER_BY_NAME,
                 payload: poke.data
@@ -98,7 +98,7 @@ export const orderByAttack = (payload) => {
 export const createPokemon = (payload) => {
     return async function(){
     try {
-            const create = await axios.post("http://localhost:3001/pokemons", payload)
+            const create = await axios.post("/pokemons", payload)
             return create;
         } catch (error) {
             swa("Pokemon name already exist", '', 'error')   
