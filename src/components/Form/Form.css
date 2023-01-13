@@ -1,0 +1,33 @@
+.pokeform {
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 150px;
+    color:black;
+    font-size: 30px;
+    background: url(https://cdn.dribbble.com/users/1771704/screenshots/6124573/attachments/1313609/pokeball.gif);
+    background-size: cover;
+}
+
+
+.pokeform input {
+    font-size: 20px;
+}
+
+.pokeform select {
+    font-size: 20px;
+}
+
+.button_form {
+    background-image: url(https://th.bing.com/th/id/OIP.vHUpBzjeX18AZvvxsljeSQHaGl?pid=ImgDet&rs=1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+   
+}
+

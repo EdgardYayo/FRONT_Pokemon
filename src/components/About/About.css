@@ -1,0 +1,46 @@
+.about_container {
+    display: grid;
+    place-items: center;
+    color: black;
+    border: solid white 3px;
+    width: fit-content;
+    height: fit-content;
+    background: url(https://laverdadnoticias.com/__export/1619730145361/sites/laverdad/img/2021/04/29/10_pokemon_poderosos_ash_ketchum_pikachu.jpg_1890981022.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 900;
+    border-radius: 100px;
+    margin-top: 35px;
+}
+
+.about_title {
+    font-size: 50px;
+}
+
+.about_text {
+    font-size: 30px;
+}
+
+.about_list{
+    font-size: 30px;
+    list-style: none;
+}
+
+.about_img {
+    width: 25px;
+    height: 25px;
+    filter: brightness(1.1);
+    border-radius: 10px;
+}
+
+.about_button {
+  background-image: url(https://th.bing.com/th/id/OIP.vHUpBzjeX18AZvvxsljeSQHaGl?pid=ImgDet&rs=1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: x-large;
+  font-weight: 900;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+}

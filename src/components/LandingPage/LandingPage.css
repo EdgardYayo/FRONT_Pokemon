@@ -1,0 +1,53 @@
+.img {
+    filter: brightness(1.1);
+    text-decoration: none;
+    width: 14%;
+    height: 14%;
+}
+
+.content {
+    font-size: 200px;
+    color: black;
+    transform: scale(1);
+    transition: transform 1s;
+    color: azure;
+}
+
+.content:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.principal {
+    text-decoration: none;
+
+
+    animation:  2s enter 0.2s ease-in-out;
+}
+
+@keyframes enter {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+.link_landing {
+    text-decoration: none;
+}
+
+.landing_button{
+  background-image: url(https://th.bing.com/th/id/OIP.vHUpBzjeX18AZvvxsljeSQHaGl?pid=ImgDet&rs=1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: x-large;
+  font-weight: 900;
+  height: 100%;
+  width: 15%;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+}

@@ -1,0 +1,44 @@
+.home {
+  background: url(https://www.gratistodo.com/wp-content/uploads/2016/09/Pokemon-5.jpg);
+  background-size:cover;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 33% 33% 33%; 
+  gap: 10px;
+  position: relative;
+  text-decoration-line: none;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
+.homenav {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  cursor: pointer;
+}
+
+.buhome{
+  background-image: url(https://th.bing.com/th/id/OIP.vHUpBzjeX18AZvvxsljeSQHaGl?pid=ImgDet&rs=1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: x-large;
+  font-weight: 900;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+}
+
+.buhome2{
+  background-image: url(https://th.bing.com/th/id/OIP.vHUpBzjeX18AZvvxsljeSQHaGl?pid=ImgDet&rs=1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: x-large;
+  font-weight: 900;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+}
+
+.link_home {
+ text-decoration: none;
+}

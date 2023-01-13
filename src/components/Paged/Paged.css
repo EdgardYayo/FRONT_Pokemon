@@ -1,0 +1,51 @@
+.paged {
+    background: url(https://sehotgame.xyz/pokemon-home/img/logo.jpg);
+    background-size: contain; 
+    color: white; 
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.lista button {
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 100px;
+}
+
+.anchor {
+   border: double white 5px;
+   border-radius: 100%;
+   background: linear-gradient(to bottom, red, white);
+   width: 5%;
+}
+
+
+.anchor button {
+    color: black;
+    width: 100%;
+}
+
+
+.paged_button {
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    padding: 3px 15px;
+}
+
+#p_paged:focus {
+    background: aqua;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px black;
+}

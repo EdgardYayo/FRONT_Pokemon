@@ -1,0 +1,56 @@
+.contenido {
+    border: 10px solid white;
+    border-radius: 25px;
+    font-size: 30px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.alias {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.picture {
+    background: url(https://th.bing.com/th/id/R.8b8c7ecb9d576adae6d5725a319e3ff0?rik=5TQmeyVgbqAmEA&riu=http%3a%2f%2ffc07.deviantart.net%2ffs70%2ff%2f2011%2f307%2fb%2f9%2fpokebola_meme_by_vechta-d4f0gnw.png&ehk=m6eHCVO5kTrV1JmjhZAIdvNegfhhx212%2fd%2bh6VxfWvs%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    padding-bottom: 40px;
+    
+    animation: appear 2s 0.1s ease-in-out;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+.second-container {
+    background: url(https://img1.picmix.com/output/stamp/normal/8/6/3/5/1205368_75cb3.gif);
+    background-size: contain;
+    color: white;
+    width: 30%;
+    height: fit-content;
+    border: 10px solid red;
+}
+
+.button_detail{
+    background-image: url(https://th.bing.com/th/id/OIP.vHUpBzjeX18AZvvxsljeSQHaGl?pid=ImgDet&rs=1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    
+}

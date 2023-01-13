@@ -1,0 +1,49 @@
+.navnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 2px;
+    border-style: inset;
+    background: url(https://th.bing.com/th/id/OIP.JhwjHvHiCJtrkOqTztjXmgHaEK?pid=ImgDet&rs=1);
+    background-size: contain;
+    
+}
+
+.navnav select {
+    background-color: black;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+}
+
+.navnav input{
+    background-color: white;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    outline: none;
+    padding: 3px;
+}
+
+.navnav button {
+    background-color: skyblue;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 17px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 3px 5px;
+    border: 1px gray double;
+    box-shadow: 0 0 10px black;
+}
+
+.navnav button:hover {
+    transform: scale(1.05);
+    background: gold;
+    -webkit-transform: scale(1.05);
+    box-shadow: 0 0 10px gold;
+}

@@ -1,0 +1,16 @@
+.loader {
+    /* display: grid;
+    place-items: center; */
+    color: black;
+    background: url(https://media.tenor.com/images/98f97eb748d73e0bd147b5e0037fe9a9/tenor.gif);
+    width: 500%;
+    height: 100vh;
+}
+
+.text {
+    display: grid;
+    place-items: center;
+    font-size: 150px;
+    width: 1000%;
+    text-align:initial;
+}

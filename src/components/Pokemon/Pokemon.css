@@ -1,0 +1,43 @@
+.container {
+    border: solid black 3px;
+    border-radius: 100px;
+    width: 400px;
+    height: 500px;
+}
+
+.container:hover {
+   background: url(https://cdn.dribbble.com/users/283669/screenshots/2851144/gogogo.gif);
+   box-shadow: 0 0 30px black;
+}
+
+.image {
+    width: 50%;
+    height: 50%;
+    
+
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.image:hover {
+    transform: scale(1.175) translateY(15px);
+    transition: transform 1s;
+    
+}
+
+
+.name {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    text-decoration-style: wavy;
+    text-shadow: 5px 2px 5px white;
+    font-weight: 900;
+}
+
+.types {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
