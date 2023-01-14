@@ -11,10 +11,15 @@
 }
 
 .navnav select {
-    background-color: black;
+    background: linear-gradient(red, black, white);
     color: white;
+    text-shadow: 0 0 3px white;
     font-family: 'Dancing Script', cursive;
     font-size: 17px;
+}
+
+.navnav option {
+    color:black;
 }
 
 .navnav input{
