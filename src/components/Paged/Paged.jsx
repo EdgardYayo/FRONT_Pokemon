@@ -21,7 +21,7 @@ export default function Paged({ pokePerPage, pokemons, paged, currentPage }) {
         <button onClick={ currentPage > 1 ? () => paged(currentPage - 1) : null}
         disabled={currentPage === 1 ? true : false}>🢢</button>
         {pagedNumbers && pagedNumbers.map((number, i) => (
-          <div className="anchor">
+          <div key={i} className="anchor">
             <button className="anchor" id="p_paged" key={i} onClick={() => paged(number)}>{number}</button>
           </div>
         ))}
